@@ -158,6 +158,9 @@ Device(RHPX)
         // GPIO 27
         GpioIO(Shared, PullDown, 0, 0, IoRestrictionNone, "\\_SB.GPI0", 0, ResourceConsumer, , ) { 27 }
         GpioInt(Edge, ActiveBoth, Shared, PullDown, 0, "\\_SB.GPI0",)                            { 27 }
+        // GPIO 28
+        GpioIO(Shared, PullDown, 0, 0, IoRestrictionNone, "\\_SB.GPI0", 0, ResourceConsumer, , ) { 28 }
+        GpioInt(Edge, ActiveBoth, Shared, PullDown, 0, "\\_SB.GPI0",)                            { 28 }
         // GPIO 35
         GpioIO(Shared, PullUp, 0, 0, IoRestrictionNone, "\\_SB.GPI0", 0, ResourceConsumer, , )   { 35 }
         GpioInt(Edge, ActiveBoth, Shared, PullUp, 0, "\\_SB.GPI0",)                              { 35 }
