@@ -643,8 +643,10 @@
   #
   # MMC/SD
   #
-  Pi3BoardPkg/Drivers/MmcDxe/MmcDxe.inf
-  Pi3BoardPkg/Drivers/SdHostDxe/SdHostDxe.inf
+  #Pi3BoardPkg/Drivers/MmcDxe/MmcDxe.inf
+  #Pi3BoardPkg/Drivers/SdHostDxe/SdHostDxe.inf
+  MsPkg/Drivers/SdMmcDxe/SdMmcDxe.inf
+  Pi3BoardPkg/Drivers/SdhcDxe/SdhcDxe.inf 
 
   #
   # ARM GIC+GIT Drivers
